@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-## Oi, eu sou o Ryan
+### Oi, eu sou o Ryan
 
 Estudo Desenvolvimento de Sistemas na ETEC e faço estágio em cibersegurança. Gosto de construir sistemas que resolvem problemas reais, principalmente com Java e Spring, e ando cada vez mais curioso sobre IA e agentes.
 
@@ -29,6 +29,8 @@ Estudo Desenvolvimento de Sistemas na ETEC e faço estágio em cibersegurança. 
 <p><sub><a href="https://vetremant.vercel.app/">demo</a> · <a href="https://github.com/twkryan/Vetremant">código</a></sub></p>
 
 <br>
+
+<img src="assets/divider.svg" width="960" alt="">
 
 <img src="assets/section-tecnologias.svg" width="960" alt="Tecnologias">
 
