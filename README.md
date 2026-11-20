@@ -16,24 +16,14 @@ Estudo Desenvolvimento de Sistemas na ETEC e faço estágio em cibersegurança. 
 
 <img src="assets/section-projetos.svg" width="960" alt="Projetos">
 
-## Projetos em destaque
-
-### 01 / Almox TI
-
 <a href="https://github.com/twkryan/spring-boot-almoxarifado"><img src="assets/card-almox.svg" width="960" alt="TWK 1.01 · Almox TI: almoxarifado de TI com empréstimos, consumo de peças, auditoria de estoque e relatórios. Java, Spring Boot e Thymeleaf."></a>
 <p><sub><a href="https://github.com/twkryan/spring-boot-almoxarifado">código</a></sub></p>
-
-### 02 / Estacionamento Spring
 
 <a href="https://github.com/twkryan/Estacionamento-Spring"><img src="assets/card-estacionamento.svg" width="960" alt="TWK 1.02 · Estacionamento Spring: controle de vagas, entradas, saídas e histórico. Java, Spring Boot e H2."></a>
 <p><sub><a href="https://estacionamento-spring-bn9p.onrender.com">demo</a> · <a href="https://github.com/twkryan/Estacionamento-Spring">código</a></sub></p>
 
-### 03 / Aurora
-
 <a href="https://github.com/twkryan/Aurora"><img src="assets/card-aurora.svg" width="960" alt="TWK 1.03 · Aurora: site educativo sobre os primeiros computadores, de 1936 a 1950. HTML, Tailwind e GSAP."></a>
 <p><sub><a href="https://aurora-sdld.vercel.app/">demo</a> · <a href="https://github.com/twkryan/Aurora">código</a></sub></p>
-
-### 04 / Vetremant
 
 <a href="https://github.com/twkryan/Vetremant"><img src="assets/card-vetremant.svg" width="960" alt="TWK 1.04 · Vetremant: portal de notícias sobre moda. HTML, CSS e JavaScript."></a>
 <p><sub><a href="https://vetremant.vercel.app/">demo</a> · <a href="https://github.com/twkryan/Vetremant">código</a></sub></p>
@@ -42,35 +32,15 @@ Estudo Desenvolvimento de Sistemas na ETEC e faço estágio em cibersegurança. 
 
 <img src="assets/section-tecnologias.svg" width="960" alt="Tecnologias">
 
-## Tecnologias e ferramentas
-
-### Linguagens
-
 <img src="assets/tec-linguagens.svg" width="960" alt="Linguagens: Python, TypeScript, JavaScript, Java e PHP">
-
-Java é a base dos meus projetos de back-end, como o Almox TI e o Estacionamento Spring. JavaScript aparece nos projetos web, e Python, TypeScript e PHP fazem parte dos meus estudos.
-
-### Web
 
 <img src="assets/tec-web.svg" width="960" alt="Web: React, HTML, CSS e REST API">
 
-HTML, CSS e JavaScript são a base do Aurora e do Vetremant. React e APIs REST entram nos estudos de front-end e de integração entre sistemas.
-
-### Dados
-
 <img src="assets/tec-dados.svg" width="960" alt="Dados: SQLite">
-
-SQLite para bancos locais e para praticar modelagem e consultas SQL.
-
-### Segurança
 
 <img src="assets/tec-seguranca.svg" width="960" alt="Segurança: Linux e Wireshark">
 
-Linux e Wireshark acompanham meus estudos de redes e cibersegurança, a área do meu estágio.
-
 <br>
-
-<img src="assets/section-contato.svg" width="960" alt="Contato">
 
 ## Vamos conversar?
 
