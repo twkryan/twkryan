@@ -9,9 +9,6 @@
 
 Estudo Desenvolvimento de Sistemas na ETEC e faço estágio em cibersegurança. Gosto de construir sistemas que resolvem problemas reais, principalmente com Java e Spring, e ando cada vez mais curioso sobre IA e agentes.
 
-O visual daqui vem do mundo antigo do Levante, que eu estudo por conta própria. O nome lá em cima está escrito no alfabeto cuneiforme de Ugarit, uma das escritas alfabéticas mais antigas que conhecemos.
-
-- **construindo agora:** o Almox TI, um almoxarifado de TI de verdade que nasceu de um exercício de sala
 - **aprendendo:** fundamentos de cibersegurança, back-end, banco de dados, estruturas de dados e algoritmos, machine learning e IA
 - **me pergunte sobre:** desenvolvimento de software e web, Java e PHP, cibersegurança, IA e machine learning
 
@@ -31,13 +28,31 @@ O visual daqui vem do mundo antigo do Levante, que eu estudo por conta própria.
 
 <img src="assets/section-tecnologias.svg" width="960" alt="Tecnologias">
 
-<img src="assets/tecnologias.svg" width="960" alt="Linguagens: Python, TypeScript, JavaScript, Java e PHP. Web: React, HTML, CSS e REST API. Dados: SQLite. Segurança: Linux e Wireshark.">
+<img src="assets/tec-linguagens.svg" width="960" alt="Linguagens: Python, TypeScript, JavaScript, Java e PHP">
+
+Java é a base dos meus projetos de back-end, como o Almox TI e o Estacionamento Spring. JavaScript aparece nos projetos web, e Python, TypeScript e PHP fazem parte dos meus estudos.
+
+<img src="assets/tec-web.svg" width="960" alt="Web: React, HTML, CSS e REST API">
+
+HTML, CSS e JavaScript são a base do Aurora e do Vetremant. React e APIs REST entram nos estudos de front-end e de integração entre sistemas.
+
+<img src="assets/tec-dados.svg" width="960" alt="Dados: SQLite">
+
+SQLite para bancos locais e para praticar modelagem e consultas SQL.
+
+<img src="assets/tec-seguranca.svg" width="960" alt="Segurança: Linux e Wireshark">
+
+Linux e Wireshark acompanham meus estudos de redes e cibersegurança, a área do meu estágio.
 
 <img src="assets/section-contato.svg" width="960" alt="Contato">
+
+**Vamos conversar?** Se quiser trocar uma ideia sobre software, IA ou cibersegurança, me chama no LinkedIn ou manda um e-mail.
 
 <p>
   <a href="https://www.linkedin.com/in/ryan-vieira-79bb39382"><img src="assets/btn-linkedin.svg" width="220" alt="LinkedIn"></a>
   <a href="mailto:ryan.felipesilva09@gmail.com"><img src="assets/btn-email.svg" width="220" alt="E-mail: ryan.felipesilva09@gmail.com"></a>
 </p>
+
+`ryan.felipesilva09@gmail.com` · `@twkryan`
 
 <img src="assets/footer.svg" width="960" alt="Friso de tijolos azuis no estilo da Porta de Ishtar, com leões, touros e mushhushshu dourados entre faixas de rosetas. Ryan Vieira, São Paulo, 2026.">
