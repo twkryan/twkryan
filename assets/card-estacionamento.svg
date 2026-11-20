@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="170" viewBox="0 0 960 170" role="img" aria-labelledby="t d">
+<title id="t">TWK 1.02 · Estacionamento Spring</title>
+<desc id="d">Tábua catalogada TWK 1.02: Estacionamento Spring. Cada entrada. Cada saída. Tudo sob controle. Vagas, visitas e histórico. Tecnologias: Java, Spring Boot, H2. Demo online.</desc>
+<defs>
+<clipPath id="cl"><rect width="960" height="170" rx="14"/></clipPath>
+<filter id="nz" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="7" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .91 0 0 0 0 .85 0 0 0 0 .74 0 0 0 -1.6 1.1"/></filter>
+</defs>
+<style>
+.s{font-family:Georgia,'Times New Roman',serif}
+.i{font-family:Georgia,'Times New Roman',serif;font-style:italic}
+.lbl{font-family:ui-monospace,'Cascadia Mono',Consolas,'SFMono-Regular',Menlo,monospace;font-size:10px;letter-spacing:2.4px;fill:#a8977c}
+</style>
+<rect width="960" height="170" rx="14" fill="#1c1712"/>
+<g clip-path="url(#cl)">
+<rect x="48.8" y="38.8" width="6.4" height="6.4" transform="rotate(45 52 42)" fill="#2f4a7a"/><text x="64" y="46" class="lbl"><tspan fill="#d08a5a">TWK 1.02</tspan> · TÁBUA CATALOGADA</text>
+<text x="48" y="92" class="i" font-size="34" fill="#e9d9bd">Estacionamento Spring</text>
+<text x="48" y="120" class="s" font-size="14.5" fill="#a8977c">“Cada entrada. Cada saída. Tudo sob controle.” Vagas, visitas e histórico.</text>
+<line x1="48" y1="134" x2="760" y2="134" stroke="#a8977c" stroke-opacity=".16"/>
+<text x="48" y="151" class="lbl">JAVA · SPRING BOOT · H2 · DEMO ONLINE</text>
+<line x1="784" y1="28" x2="784" y2="142" stroke="#a8977c" stroke-opacity=".22"/>
+<path stroke="#a8977c" stroke-opacity=".5" fill="none" d="M812 46V38H820M884 38H892V46M892 110V118H884M820 118H812V110"/>
+<g transform="translate(852 78)">
+<g fill="none" stroke="#d08a5a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M-30 -24H30M-30 -24V6M-10 -24V6M10 -24V6M30 -24V6"/>
+<path d="M-24 22H-8M-12 18L-8 22L-12 26"/><path d="M8 22H24M20 18L24 22L20 26" opacity=".55"/>
+</g>
+<rect x="-20" y="-18" width="10" height="18" rx="2.5" fill="#d08a5a"/>
+</g>
+<text x="852" y="146" class="lbl" font-size="9" text-anchor="middle">fig. vagas</text>
+<rect width="960" height="170" filter="url(#nz)" opacity=".2"/>
+</g>
+<rect x=".5" y=".5" width="959" height="169" rx="13.5" fill="none" stroke="#3a2f24"/>
+</svg>
