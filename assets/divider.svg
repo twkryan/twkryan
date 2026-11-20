@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="28" viewBox="0 0 960 28" role="img" aria-labelledby="t">
+<title id="t">Divisor</title>
+<defs><path id="s8" d="M0 -10L1.61 -3.88L7.07 -7.07L3.88 -1.61L10 0L3.88 1.61L7.07 7.07L1.61 3.88L0 10L-1.61 3.88L-7.07 7.07L-3.88 1.61L-10 0L-3.88 -1.61L-7.07 -7.07L-1.61 -3.88Z"/>
+<linearGradient id="lf" x1="0" x2="1"><stop offset="0" stop-color="#a8977c" stop-opacity="0"/><stop offset=".5" stop-color="#a8977c" stop-opacity=".55"/><stop offset="1" stop-color="#a8977c" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="13.5" width="456" height="1" fill="url(#lf)"/>
+<rect x="504" y="13.5" width="456" height="1" fill="url(#lf)"/>
+<use href="#s8" transform="translate(480 14) scale(0.7)" fill="#c9a24a"/>
+<use href="#s8" transform="translate(464 14) scale(0.3)" fill="#b08a64"/>
+<use href="#s8" transform="translate(496 14) scale(0.3)" fill="#b08a64"/>
+</svg>
