@@ -7,6 +7,7 @@
 <g id="ro" fill="none"><circle r="10" vector-effect="non-scaling-stroke"/><circle r="2" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(45)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(90)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(135)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(180)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(225)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(270)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(315)" vector-effect="non-scaling-stroke"/></g>
 <pattern id="mw" patternUnits="userSpaceOnUse" x="0" y="269" width="32" height="15"><path d="M0 15V10H4V5H8V0H16V5H20V10H24V15Z" fill="#24427a"/></pattern>
 <pattern id="rw" patternUnits="userSpaceOnUse" x="0" y="286" width="48" height="14"><use href="#ro" transform="translate(24 8) scale(0.5)" stroke="#c9a24a" stroke-width="0.8"/></pattern>
+<radialGradient id="glw"><stop offset="0" stop-color="#f1cf7a" stop-opacity=".55"/><stop offset=".45" stop-color="#c9a24a" stop-opacity=".18"/><stop offset="1" stop-color="#c9a24a" stop-opacity="0"/></radialGradient>
 </defs>
 <style>
 .ins{font-family:Georgia,'Times New Roman',serif;text-transform:uppercase}
@@ -22,6 +23,14 @@
 .wall{animation:rise 1.2s cubic-bezier(.2,.7,.2,1) 2.8s both}
 @keyframes rise{from{opacity:0;transform:translate(0,10px)}to{opacity:1;transform:translate(0,0)}}
 @media (prefers-reduced-motion:reduce){.w,.a,.st,.wall{animation:none!important}}
+.sp{opacity:0;transform-box:fill-box;transform-origin:center;animation:tw 2.8s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:0;transform:scale(.2) rotate(0)}45%{opacity:1;transform:scale(1) rotate(45deg)}70%{opacity:.15;transform:scale(.5) rotate(70deg)}}
+.gl{transform-box:fill-box;transform-origin:center;animation:gl 3.6s ease-in-out infinite}
+@keyframes gl{0%,100%{opacity:.25;transform:scale(.85)}50%{opacity:.8;transform:scale(1.1)}}
+.rs{transform-box:fill-box;transform-origin:center;animation:rs 60s linear infinite}
+@keyframes rs{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.sp{animation:none!important;opacity:0}.gl{animation:none!important;opacity:.4}.rs{animation:none!important}}
+
 </style>
 <rect width="960" height="300" rx="14" fill="#1c1712"/>
 <g clip-path="url(#cl)">
@@ -29,10 +38,10 @@
 <text x="66" y="38" class="m" font-size="10" letter-spacing="2.6" fill="#d08a5a">TWK 1.00</text>
 <text x="912" y="38" class="m" font-size="10" letter-spacing="2.6" fill="#a8977c" text-anchor="end">@TWKRYAN</text>
 <line x1="48" y1="52" x2="912" y2="52" stroke="#a8977c" stroke-opacity="0.22"/>
-<g class="st"><use href="#s8" transform="translate(170 108) scale(2)" fill="#c9a24a"/></g>
-<g class="st"><use href="#s8" transform="translate(790 108) scale(2)" fill="#c9a24a"/></g>
-<use href="#ro" transform="translate(110 108) scale(0.9)" stroke="#b08a64" stroke-width="0.9"/>
-<use href="#ro" transform="translate(850 108) scale(0.9)" stroke="#b08a64" stroke-width="0.9"/>
+<circle class="gl" cx="170" cy="108" r="38" fill="url(#glw)" style="animation-delay:0s"/><g class="st"><use href="#s8" transform="translate(170 108) scale(2)" fill="#c9a24a"/></g>
+<circle class="gl" cx="790" cy="108" r="38" fill="url(#glw)" style="animation-delay:1.8s"/><g class="st"><use href="#s8" transform="translate(790 108) scale(2)" fill="#c9a24a"/></g>
+<circle class="gl" cx="110" cy="108" r="22" fill="url(#glw)" style="animation-delay:0.9s"/><g transform="translate(110 108)"><g class="rs"><use href="#ro" transform="scale(0.9)" stroke="#b08a64" stroke-width="0.9"/></g></g>
+<circle class="gl" cx="850" cy="108" r="22" fill="url(#glw)" style="animation-delay:2.6s"/><g transform="translate(850 108)"><g class="rs"><use href="#ro" transform="scale(0.9)" stroke="#b08a64" stroke-width="0.9"/></g></g>
 <g transform="translate(314 142)" fill="#d08a5a">
 <path class="w w1" d="M10-43.8L10-43.8Q10.5-46.7 10.8-49.6Q11-52.4 11-55.3L11-55.3Q11-57.8 10.8-60.3Q10.5-62.8 10-65.3L10-65.3Q13.4-63.9 19.4-62.3Q25.3-60.6 32.5-59.0Q39.7-57.3 47-56.2L47-56.2Q46.9-60.9 46-65.3L46-65.3Q48.8-64.2 53.3-62.9Q57.8-61.5 63.4-60.2Q68.9-58.8 75.0-57.6Q81-56.4 86.8-55.6L86.8-55.6L86.8-53.3Q80.9-52.5 74.8-51.4Q68.7-50.2 63.1-49.0Q57.5-47.7 53.1-46.4Q48.6-45 46-43.8L46-43.8Q46.4-46 46.6-48.3Q46.8-50.5 46.9-52.7L46.9-52.7Q39.6-51.6 32.3-50.1Q25-48.6 19.1-47.0Q13.2-45.3 10-43.8Z"/>
 <path class="w w2" d="M10-18.4L10-18.4Q10.5-21.3 10.8-24.2Q11-27 11-29.9L11-29.9Q11-32.4 10.8-34.9Q10.5-37.4 10-39.9L10-39.9Q13.4-38.5 19.4-36.9Q25.3-35.2 32.5-33.6Q39.7-31.9 47-30.8L47-30.8Q46.9-35.5 46-39.9L46-39.9Q48.8-38.8 53.3-37.5Q57.8-36.1 63.4-34.8Q68.9-33.4 75.0-32.2Q81-31 86.8-30.2L86.8-30.2L86.8-27.9Q80.9-27.1 74.8-26.0Q68.7-24.8 63.1-23.6Q57.5-22.3 53.1-21.0Q48.6-19.6 46-18.4L46-18.4Q46.4-20.6 46.6-22.9Q46.8-25.1 46.9-27.3L46.9-27.3Q39.6-26.2 32.3-24.7Q25-23.2 19.1-21.6Q13.2-19.9 10-18.4Z"/>
@@ -54,6 +63,7 @@
 <line x1="0" y1="286" x2="960" y2="286" stroke="#c9a24a" stroke-opacity="0.55"/>
 <rect x="0" y="286" width="960" height="14" fill="url(#rw)"/>
 </g>
+<g transform="translate(140 86) scale(1.58)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:0.00s"/></g><g transform="translate(198 82) scale(1.05)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:0.70s"/></g><g transform="translate(204 126) scale(1.40)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:1.40s"/></g><g transform="translate(146 134) scale(0.97)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:2.10s"/></g><g transform="translate(174 72) scale(0.80)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:1.00s"/></g><g transform="translate(820 86) scale(1.58)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:0.40s"/></g><g transform="translate(762 82) scale(1.05)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:1.10s"/></g><g transform="translate(756 126) scale(1.40)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:1.80s"/></g><g transform="translate(814 134) scale(0.97)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:2.50s"/></g><g transform="translate(786 72) scale(0.80)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:0.20s"/></g><g transform="translate(92 92) scale(0.88)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:0.60s"/></g><g transform="translate(127 122) scale(0.80)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:1.90s"/></g><g transform="translate(868 92) scale(0.88)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:1.30s"/></g><g transform="translate(833 122) scale(0.80)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:0.10s"/></g><g transform="translate(63 27) scale(0.61)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:1.50s"/></g>
 <rect width="960" height="300" filter="url(#nz)" opacity=".16"/>
 </g>
 <rect x=".5" y=".5" width="959" height="299" rx="13.5" fill="none" stroke="#3a2f24"/>
