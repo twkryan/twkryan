@@ -1,11 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="28" viewBox="0 0 960 28" role="img" aria-labelledby="t">
-<title id="t">divisor</title>
-<rect width="960" height="28" rx="14" fill="#1c1712"/>
-<line x1="48" y1="14" x2="456" y2="14" stroke="#a8977c" stroke-opacity=".35"/>
-<line x1="504" y1="14" x2="912" y2="14" stroke="#a8977c" stroke-opacity=".35"/>
-<path d="M48 10V18M912 10V18" stroke="#a8977c" stroke-opacity=".5"/>
-<rect x="463.8" y="11.8" width="4.4" height="4.4" transform="rotate(45 466 14)" fill="#2f4a7a"/>
-<rect x="491.8" y="11.8" width="4.4" height="4.4" transform="rotate(45 494 14)" fill="#2f4a7a"/>
-<path transform="translate(471.26 27.1) scale(.42)" fill="#d08a5a" d="M22.1-15.8L19.5-15.8Q17.6-27.3 15.1-34.4Q12.5-41.4 10-46.6L10-46.6Q12.9-46.2 15.8-46.0Q18.7-45.7 21.6-45.7L21.6-45.7Q24.1-45.7 26.6-45.9Q29.1-46.1 31.6-46.6L31.6-46.6Q30.1-43 28.4-38.8Q26.7-34.5 25.1-29Q23.4-23.5 22.1-15.8L22.1-15.8Z"/>
-<rect x=".5" y=".5" width="959" height="27" rx="13.5" fill="none" stroke="#3a2f24"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="32" viewBox="0 0 960 32" role="img" aria-labelledby="t">
+<title id="t">Divisor</title>
+<defs>
+<path id="s8" d="M0 -10L1.61 -3.88L7.07 -7.07L3.88 -1.61L10 0L3.88 1.61L7.07 7.07L1.61 3.88L0 10L-1.61 3.88L-7.07 7.07L-3.88 1.61L-10 0L-3.88 -1.61L-7.07 -7.07L-1.61 -3.88Z"/>
+<g id="ro" fill="none"><circle r="10" vector-effect="non-scaling-stroke"/><circle r="2" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(45)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(90)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(135)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(180)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(225)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(270)" vector-effect="non-scaling-stroke"/><ellipse cy="-5.8" rx="1.5" ry="3" transform="rotate(315)" vector-effect="non-scaling-stroke"/></g>
+</defs>
+<rect width="960" height="32" rx="14" fill="#1c1712"/>
+<line x1="48" y1="7" x2="912" y2="7" stroke="#b08a64" stroke-opacity="0.35"/>
+<line x1="48" y1="25" x2="912" y2="25" stroke="#b08a64" stroke-opacity="0.35"/>
+<g fill="#c9a24a">
+<use href="#s8" transform="translate(48 16) scale(0.42)"/><use href="#s8" transform="translate(144 16) scale(0.42)"/><use href="#s8" transform="translate(240 16) scale(0.42)"/><use href="#s8" transform="translate(336 16) scale(0.42)"/><use href="#s8" transform="translate(432 16) scale(0.42)"/><use href="#s8" transform="translate(528 16) scale(0.42)"/><use href="#s8" transform="translate(624 16) scale(0.42)"/><use href="#s8" transform="translate(720 16) scale(0.42)"/><use href="#s8" transform="translate(816 16) scale(0.42)"/><use href="#s8" transform="translate(912 16) scale(0.42)"/>
+</g>
+<use href="#s8" transform="translate(480 16) scale(0.6)" fill="#d08a5a"/>
+<g stroke="#b08a64" stroke-width="0.8">
+<use href="#ro" transform="translate(96 16) scale(0.5)"/><use href="#ro" transform="translate(192 16) scale(0.5)"/><use href="#ro" transform="translate(288 16) scale(0.5)"/><use href="#ro" transform="translate(384 16) scale(0.5)"/><use href="#ro" transform="translate(576 16) scale(0.5)"/><use href="#ro" transform="translate(672 16) scale(0.5)"/><use href="#ro" transform="translate(768 16) scale(0.5)"/><use href="#ro" transform="translate(864 16) scale(0.5)"/>
+</g>
+<rect x=".5" y=".5" width="959" height="31" rx="13.5" fill="none" stroke="#3a2f24"/>
 </svg>
