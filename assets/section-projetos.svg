@@ -16,13 +16,19 @@
 .rs{transform-box:fill-box;transform-origin:center;animation:rs 60s linear infinite}
 @keyframes rs{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){.sp{animation:none!important;opacity:0}.gl{animation:none!important;opacity:.4}.rs{animation:none!important}}
+
+.gd{animation:gd 3.4s ease-in-out infinite}
+.gd2{animation:gd2 3.4s ease-in-out infinite}
+@keyframes gd{0%,100%{filter:brightness(1)}50%{filter:brightness(1.4) drop-shadow(0 0 2.5px rgba(241,207,122,.8))}}
+@keyframes gd2{0%,100%{filter:brightness(1)}50%{filter:brightness(1.3)}}
+@media (prefers-reduced-motion:reduce){.gd,.gd2{animation:none!important}}
 </style>
 <rect width="960" height="56" rx="14" fill="#1c1712"/>
 <g clip-path="url(#cl)">
-<circle class="gl" cx="52" cy="29" r="14" fill="url(#glw)" style="animation-delay:0.3s"/><use href="#s8" transform="translate(52 29) scale(0.7)" fill="#c9a24a"/><g transform="translate(43 21) scale(0.55)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:0.30s"/></g><g transform="translate(61 36) scale(0.45)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:1.60s"/></g>
+<circle class="gl" cx="52" cy="29" r="14" fill="url(#glw)" style="animation-delay:0.3s"/><use class="gd" href="#s8" transform="translate(52 29) scale(0.7)" fill="#c9a24a" style="animation-delay:0.00s"/><g transform="translate(43 21) scale(0.55)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:0.30s"/></g><g transform="translate(61 36) scale(0.45)"><path class="sp" d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="#f6e3a8" style="animation-delay:1.60s"/></g>
 <text x="72" y="35" class="ins" font-size="16" letter-spacing="8" fill="#e9d9bd">PROJETOS</text>
 <rect x="272" y="29" width="640" height="9" fill="url(#mh)"/>
-<line x1="272" y1="38.5" x2="912" y2="38.5" stroke="#c9a24a" stroke-opacity="0.5"/>
+<line class="gd" x1="272" y1="38.5" x2="912" y2="38.5" stroke="#c9a24a" stroke-opacity="0.5" style="animation-delay:0.53s"/>
 <rect width="960" height="56" filter="url(#nz)" opacity=".16"/>
 </g>
 <rect x=".5" y=".5" width="959" height="55" rx="13.5" fill="none" stroke="#3a2f24"/>
