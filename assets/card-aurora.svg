@@ -1,1 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="180" viewBox="0 0 960 180" role="img" aria-labelledby="t"><title id="t">Aurora: site educacional sobre os primeiros computadores, de 1936 a 1950. HTML, Tailwind CSS, DaisyUI e GSAP. Ícone do disco solar de Shamash.</title><style>.s{font-family:Georgia,'Times New Roman',serif;font-style:italic}.r{font-family:Georgia,'Times New Roman',serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:2px}</style><defs><linearGradient id="lp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#27499b"/><stop offset="1" stop-color="#1b3677"/></linearGradient><linearGradient id="au" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1c977"/><stop offset="1" stop-color="#b98436"/></linearGradient><pattern id="br" width="32" height="14" patternUnits="userSpaceOnUse"><path d="M0 .5H32M0 7.5H32M.5 0V7M16.5 7V14" stroke="#0b1f4f" stroke-width="1" opacity=".7"/><path d="M2 1.6H15M18 8.6H31" stroke="#7d9ae0" stroke-width=".8" opacity=".25"/></pattern><pattern id="gr" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#efe3c8" opacity=".05"/><circle cx="4.5" cy="4.5" r=".7" fill="#000" opacity=".3"/></pattern><clipPath id="tc"><rect x="800" y="28" width="124" height="124" rx="14"/></clipPath></defs><rect x=".5" y=".5" width="959" height="179" rx="16" fill="#18140f" stroke="#3b3127"/><rect x=".5" y=".5" width="959" height="179" rx="16" fill="url(#gr)"/><rect x="28" y="30" width="3" height="120" rx="1.5" fill="url(#au)"/><text x="52" y="52" class="m" font-size="11" fill="#e3b25e">03 / SITE EDUCACIONAL</text><text x="50" y="98" class="s" font-size="40" fill="#efe3c8">Aurora</text><text x="52" y="128" class="r" font-size="16" fill="#b3a589">A história dos primeiros computadores, de 1936 a 1950, por eras e por temas.</text><text x="52" y="155" class="m" font-size="10.5" fill="#9db4e8">HTML · TAILWIND CSS · DAISYUI · GSAP</text><path d="M772 32V148" stroke="#3b3127" stroke-dasharray="1 4" stroke-linecap="round"/><g clip-path="url(#tc)"><rect x="800" y="28" width="124" height="124" fill="url(#lp)"/><rect x="800" y="28" width="124" height="124" fill="url(#br)"/></g><rect x="805.5" y="33.5" width="113" height="113" rx="10" fill="none" stroke="#e3b25e" opacity=".35"/><g transform="translate(817.2 45.2) scale(1.4)"><circle cx="32" cy="32" r="27" fill="none" stroke="url(#au)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M38.5 35.4L37.2 40.3L42.2 39.1L40.9 44.0L45.9 42.7L44.6 47.7L49.5 46.4L48.3 51.4L53.2 50.1 M28.6 38.5L23.7 37.2L24.9 42.2L20.0 40.9L21.3 45.9L16.3 44.6L17.6 49.5L12.6 48.3L13.9 53.2 M25.5 28.6L26.8 23.7L21.8 24.9L23.1 20.0L18.1 21.3L19.4 16.3L14.5 17.6L15.7 12.6L10.8 13.9 M35.4 25.5L40.3 26.8L39.1 21.8L44.0 23.1L42.7 18.1L47.7 19.4L46.4 14.5L51.4 15.7L50.1 10.8" fill="none" stroke="url(#au)" stroke-width="1.8" stroke-linejoin="round"/><path d="M32 6L36 28L58 32L36 36L32 58L28 36L6 32L28 28Z" fill="url(#au)"/><circle cx="32" cy="32" r="3.2" fill="#1b3677"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="150" viewBox="0 0 960 150" role="img" aria-labelledby="t">
+<title id="t">TWK 1.03 · Aurora — Site educativo sobre os primeiros computadores, de 1936 a 1950. Tecnologias: HTML, Tailwind, GSAP.</title>
+<defs>
+<clipPath id="cl"><rect width="960" height="150" rx="14"/></clipPath>
+<filter id="nz" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="7" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .91 0 0 0 0 .85 0 0 0 0 .74 0 0 0 -1.6 1.1"/></filter>
+<path id="s8" d="M0 -10L1.61 -3.88L7.07 -7.07L3.88 -1.61L10 0L3.88 1.61L7.07 7.07L1.61 3.88L0 10L-1.61 3.88L-7.07 7.07L-3.88 1.61L-10 0L-3.88 -1.61L-7.07 -7.07L-1.61 -3.88Z"/>
+</defs>
+<style>
+.ins{font-family:Georgia,'Times New Roman',serif;text-transform:uppercase}
+.m{font-family:ui-monospace,'Cascadia Mono',Consolas,'SFMono-Regular',Menlo,monospace;text-transform:uppercase}
+</style>
+<rect width="960" height="150" rx="14" fill="#1c1712"/>
+<g clip-path="url(#cl)">
+<use href="#s8" transform="translate(54 34) scale(0.5)" fill="#c9a24a"/>
+<text x="66" y="38" class="m" font-size="10" letter-spacing="2.6" fill="#d08a5a">TWK 1.03</text>
+<text x="48" y="76" class="ins" font-size="22" letter-spacing="7" fill="#e9d9bd">AURORA</text>
+<text x="48" y="101" font-family="Georgia,'Times New Roman',serif" font-size="14.5" fill="#a8977c">Site educativo sobre os primeiros computadores, de 1936 a 1950.</text>
+<line x1="48" y1="116" x2="760" y2="116" stroke="#a8977c" stroke-opacity="0.22"/>
+<text x="48" y="134" class="m" font-size="10" letter-spacing="2.6" fill="#a8977c">HTML · TAILWIND · GSAP</text>
+<line x1="790" y1="22" x2="790" y2="128" stroke="#a8977c" stroke-opacity=".22"/>
+<path d="M818 29H910M818 33H910M818 121H910M818 117H910" stroke="#b08a64" stroke-opacity=".7" fill="none"/>
+<path d="M818 33V117M910 33V117" stroke="#b08a64" stroke-opacity=".25" fill="none"/>
+<g transform="translate(864 75)">
+<g fill="none" stroke="#d08a5a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+<circle r="29"/>
+<path d="M0 -24L3.54 -3.54L24 0L3.54 3.54L0 24L-3.54 3.54L-24 0L-3.54 -3.54Z"/>
+<path d="M5.66 -5.66L6.78 -5.48L7.8 -5.4L8.64 -5.5L9.24 -5.85L9.58 -6.45L9.69 -7.29L9.61 -8.31L9.43 -9.43L9.25 -10.55L9.17 -11.57L9.27 -12.41L9.62 -13.01L10.22 -13.35L11.06 -13.46L12.08 -13.38L13.2 -13.2L14.32 -13.02L15.34 -12.94L16.18 -13.05L16.78 -13.39L17.12 -13.99L17.23 -14.83L17.15 -15.85L16.97 -16.97M5.66 5.66L5.48 6.78L5.4 7.8L5.5 8.64L5.85 9.24L6.45 9.58L7.29 9.69L8.31 9.61L9.43 9.43L10.55 9.25L11.57 9.17L12.41 9.27L13.01 9.62L13.35 10.22L13.46 11.06L13.38 12.08L13.2 13.2L13.02 14.32L12.94 15.34L13.05 16.18L13.39 16.78L13.99 17.12L14.83 17.23L15.85 17.15L16.97 16.97M-5.66 5.66L-6.78 5.48L-7.8 5.4L-8.64 5.5L-9.24 5.85L-9.58 6.45L-9.69 7.29L-9.61 8.31L-9.43 9.43L-9.25 10.55L-9.17 11.57L-9.27 12.41L-9.62 13.01L-10.22 13.35L-11.06 13.46L-12.08 13.38L-13.2 13.2L-14.32 13.02L-15.34 12.94L-16.18 13.05L-16.78 13.39L-17.12 13.99L-17.23 14.83L-17.15 15.85L-16.97 16.97M-5.66 -5.66L-5.48 -6.78L-5.4 -7.8L-5.5 -8.64L-5.85 -9.24L-6.45 -9.58L-7.29 -9.69L-8.31 -9.61L-9.43 -9.43L-10.55 -9.25L-11.57 -9.17L-12.41 -9.27L-13.01 -9.62L-13.35 -10.22L-13.46 -11.06L-13.38 -12.08L-13.2 -13.2L-13.02 -14.32L-12.94 -15.34L-13.05 -16.18L-13.39 -16.78L-13.99 -17.12L-14.83 -17.23L-15.85 -17.15L-16.97 -16.97"/>
+</g>
+<circle r="3" fill="#c9a24a"/>
+</g>
+<rect width="960" height="150" filter="url(#nz)" opacity=".16"/>
+</g>
+<rect x=".5" y=".5" width="959" height="149" rx="13.5" fill="none" stroke="#3a2f24"/>
+</svg>
