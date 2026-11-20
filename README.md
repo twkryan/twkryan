@@ -26,7 +26,8 @@ Controle de empréstimo e consumo de cabos, periféricos e ferramentas por técn
 
 <a href="https://estacionamento-spring-bn9p.onrender.com"><img src="assets/card-estacionamento.svg" width="960" alt="TWK 1.02 · Estacionamento Spring: controle de vagas, visitas e histórico. Java, Spring Boot e H2."></a>
 
-Controle de vagas, entradas, saídas e histórico numa aplicação web simples de operar. **[demo](https://estacionamento-spring-bn9p.onrender.com)** · **[código](https://github.com/twkryan/Estacionamento-Spring)** <sub>(o primeiro acesso à demo pode demorar enquanto o servidor acorda)</sub>
+Controle de vagas, entradas, saídas e histórico numa aplicação web simples de operar. **[demo](https://estacionamento-spring-bn9p.onrender.com)** · **[código](https://github.com/twkryan/Estacionamento-Spring)**<br>
+<sub>o primeiro acesso à demo pode demorar enquanto o servidor acorda</sub>
 
 <a href="https://aurora-sdld.vercel.app/"><img src="assets/card-aurora.svg" width="960" alt="TWK 1.03 · Aurora: site educacional interativo sobre os primeiros computadores, de Turing a 1950."></a>
 
@@ -47,7 +48,7 @@ Uma viagem interativa pela história da computação, das ideias de Alan Turing 
 
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,spring,kotlin,androidstudio,js,html,css,tailwind,php,docker,git,github&perline=12" alt="Java, Spring, Kotlin, Android Studio, JavaScript, HTML, CSS, Tailwind, PHP, Docker, Git e GitHub"></a>
 
-### fora do código
+### composição
 
 <img src="assets/etiqueta.svg" width="960" alt="Etiqueta de roupa 'Fora do código'. Ouvindo: Ecco2k, Playboi Carti, bleood. Assistindo: Akira, Cyberpunk: Edgerunners. Jogando: Phantom Blade Zero. Lendo: história de Ugarit, El e Asherah. Na quadra: tênis de mesa (iniciante), vôlei. Composição: 40% curiosidade, 35% Java, 25% argila.">
 
