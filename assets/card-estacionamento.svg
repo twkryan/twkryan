@@ -1,33 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="170" viewBox="0 0 960 170" role="img" aria-labelledby="t d">
-<title id="t">TWK 1.02 · Estacionamento Spring</title>
-<desc id="d">Tábua catalogada TWK 1.02: Estacionamento Spring. Cada entrada. Cada saída. Tudo sob controle. Vagas, visitas e histórico. Tecnologias: Java, Spring Boot, H2. Demo online.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="150" viewBox="0 0 960 150" role="img" aria-labelledby="t">
+<title id="t">TWK 1.02 · Estacionamento Spring — Controle de vagas, entradas, saídas e histórico. Tecnologias: Java, Spring Boot, H2.</title>
 <defs>
-<clipPath id="cl"><rect width="960" height="170" rx="14"/></clipPath>
+<clipPath id="cl"><rect width="960" height="150" rx="14"/></clipPath>
 <filter id="nz" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="7" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .91 0 0 0 0 .85 0 0 0 0 .74 0 0 0 -1.6 1.1"/></filter>
+<path id="s8" d="M0 -10L1.61 -3.88L7.07 -7.07L3.88 -1.61L10 0L3.88 1.61L7.07 7.07L1.61 3.88L0 10L-1.61 3.88L-7.07 7.07L-3.88 1.61L-10 0L-3.88 -1.61L-7.07 -7.07L-1.61 -3.88Z"/>
 </defs>
 <style>
-.s{font-family:Georgia,'Times New Roman',serif}
-.i{font-family:Georgia,'Times New Roman',serif;font-style:italic}
-.lbl{font-family:ui-monospace,'Cascadia Mono',Consolas,'SFMono-Regular',Menlo,monospace;font-size:10px;letter-spacing:2.4px;fill:#a8977c}
+.ins{font-family:Georgia,'Times New Roman',serif;text-transform:uppercase}
+.m{font-family:ui-monospace,'Cascadia Mono',Consolas,'SFMono-Regular',Menlo,monospace;text-transform:uppercase}
 </style>
-<rect width="960" height="170" rx="14" fill="#1c1712"/>
+<rect width="960" height="150" rx="14" fill="#1c1712"/>
 <g clip-path="url(#cl)">
-<rect x="48.8" y="38.8" width="6.4" height="6.4" transform="rotate(45 52 42)" fill="#2f4a7a"/><text x="64" y="46" class="lbl"><tspan fill="#d08a5a">TWK 1.02</tspan> · TÁBUA CATALOGADA</text>
-<text x="48" y="92" class="i" font-size="34" fill="#e9d9bd">Estacionamento Spring</text>
-<text x="48" y="120" class="s" font-size="14.5" fill="#a8977c">“Cada entrada. Cada saída. Tudo sob controle.” Vagas, visitas e histórico.</text>
-<line x1="48" y1="134" x2="760" y2="134" stroke="#a8977c" stroke-opacity=".16"/>
-<text x="48" y="151" class="lbl">JAVA · SPRING BOOT · H2 · DEMO ONLINE</text>
-<line x1="784" y1="28" x2="784" y2="142" stroke="#a8977c" stroke-opacity=".22"/>
-<path stroke="#a8977c" stroke-opacity=".5" fill="none" d="M812 46V38H820M884 38H892V46M892 110V118H884M820 118H812V110"/>
-<g transform="translate(852 78)">
-<g fill="none" stroke="#d08a5a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M-30 -24H30M-30 -24V6M-10 -24V6M10 -24V6M30 -24V6"/>
-<path d="M-24 22H-8M-12 18L-8 22L-12 26"/><path d="M8 22H24M20 18L24 22L20 26" opacity=".55"/>
+<use href="#s8" transform="translate(54 34) scale(0.5)" fill="#c9a24a"/>
+<text x="66" y="38" class="m" font-size="10" letter-spacing="2.6" fill="#d08a5a">TWK 1.02</text>
+<text x="48" y="76" class="ins" font-size="22" letter-spacing="7" fill="#e9d9bd">ESTACIONAMENTO SPRING</text>
+<text x="48" y="101" font-family="Georgia,'Times New Roman',serif" font-size="14.5" fill="#a8977c">Controle de vagas, entradas, saídas e histórico.</text>
+<line x1="48" y1="116" x2="760" y2="116" stroke="#a8977c" stroke-opacity="0.22"/>
+<text x="48" y="134" class="m" font-size="10" letter-spacing="2.6" fill="#a8977c">JAVA · SPRING BOOT · H2</text>
+<line x1="790" y1="22" x2="790" y2="128" stroke="#a8977c" stroke-opacity=".22"/>
+<path d="M818 29H910M818 33H910M818 121H910M818 117H910" stroke="#b08a64" stroke-opacity=".7" fill="none"/>
+<path d="M818 33V117M910 33V117" stroke="#b08a64" stroke-opacity=".25" fill="none"/>
+<g transform="translate(864 75)">
+<g fill="none" stroke="#d08a5a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M-30 28V-14M-14 28V-14M14 28V-14M30 28V-14M-14 -6H14M-30 28H30"/>
+<path d="M-30 -14V-17H-26V-20H-18V-17H-14V-14ZM14 -14V-17H18V-20H26V-17H30V-14ZM-14 -6V-8H-12V-10H-8V-8H-6V-6ZM-4 -6V-8H-2V-10H2V-8H4V-6ZM6 -6V-8H8V-10H12V-8H14V-6Z"/>
+<path d="M-7 28V8A7 7 0 0 1 7 8V28"/>
 </g>
-<rect x="-20" y="-18" width="10" height="18" rx="2.5" fill="#d08a5a"/>
+<circle cx="-22" cy="4" r="2" fill="#c9a24a"/><circle cx="22" cy="4" r="2" fill="#c9a24a"/>
+<circle cx="-8" cy="-1" r="1.6" fill="#c9a24a"/><circle cx="0" cy="-1" r="1.6" fill="#c9a24a"/><circle cx="8" cy="-1" r="1.6" fill="#c9a24a"/>
 </g>
-<text x="852" y="146" class="lbl" font-size="9" text-anchor="middle">fig. vagas</text>
-<rect width="960" height="170" filter="url(#nz)" opacity=".2"/>
+<rect width="960" height="150" filter="url(#nz)" opacity=".16"/>
 </g>
-<rect x=".5" y=".5" width="959" height="169" rx="13.5" fill="none" stroke="#3a2f24"/>
+<rect x=".5" y=".5" width="959" height="149" rx="13.5" fill="none" stroke="#3a2f24"/>
 </svg>
