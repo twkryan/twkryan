@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="28" viewBox="0 0 960 28" role="img" aria-labelledby="t">
+<title id="t">divisor</title>
+<rect width="960" height="28" rx="14" fill="#1c1712"/>
+<line x1="48" y1="14" x2="456" y2="14" stroke="#a8977c" stroke-opacity=".35"/>
+<line x1="504" y1="14" x2="912" y2="14" stroke="#a8977c" stroke-opacity=".35"/>
+<path d="M48 10V18M912 10V18" stroke="#a8977c" stroke-opacity=".5"/>
+<rect x="463.8" y="11.8" width="4.4" height="4.4" transform="rotate(45 466 14)" fill="#2f4a7a"/>
+<rect x="491.8" y="11.8" width="4.4" height="4.4" transform="rotate(45 494 14)" fill="#2f4a7a"/>
+<path transform="translate(471.26 27.1) scale(.42)" fill="#d08a5a" d="M22.1-15.8L19.5-15.8Q17.6-27.3 15.1-34.4Q12.5-41.4 10-46.6L10-46.6Q12.9-46.2 15.8-46.0Q18.7-45.7 21.6-45.7L21.6-45.7Q24.1-45.7 26.6-45.9Q29.1-46.1 31.6-46.6L31.6-46.6Q30.1-43 28.4-38.8Q26.7-34.5 25.1-29Q23.4-23.5 22.1-15.8L22.1-15.8Z"/>
+<rect x=".5" y=".5" width="959" height="27" rx="13.5" fill="none" stroke="#3a2f24"/>
+</svg>
