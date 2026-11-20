@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="170" viewBox="0 0 960 170" role="img" aria-labelledby="t d">
+<title id="t">TWK 1.03 · Aurora</title>
+<desc id="d">Tábua catalogada TWK 1.03: Aurora. Site educacional interativo sobre os primeiros computadores, de Turing a 1950. Tecnologias: HTML, Tailwind, GSAP. Demo online.</desc>
+<defs>
+<clipPath id="cl"><rect width="960" height="170" rx="14"/></clipPath>
+<filter id="nz" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="7" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .91 0 0 0 0 .85 0 0 0 0 .74 0 0 0 -1.6 1.1"/></filter>
+</defs>
+<style>
+.s{font-family:Georgia,'Times New Roman',serif}
+.i{font-family:Georgia,'Times New Roman',serif;font-style:italic}
+.lbl{font-family:ui-monospace,'Cascadia Mono',Consolas,'SFMono-Regular',Menlo,monospace;font-size:10px;letter-spacing:2.4px;fill:#a8977c}
+</style>
+<rect width="960" height="170" rx="14" fill="#1c1712"/>
+<g clip-path="url(#cl)">
+<rect x="48.8" y="38.8" width="6.4" height="6.4" transform="rotate(45 52 42)" fill="#2f4a7a"/><text x="64" y="46" class="lbl"><tspan fill="#d08a5a">TWK 1.03</tspan> · TÁBUA CATALOGADA</text>
+<text x="48" y="92" class="i" font-size="34" fill="#e9d9bd">Aurora</text>
+<text x="48" y="120" class="s" font-size="14.5" fill="#a8977c">Site educacional interativo sobre os primeiros computadores, de Turing a 1950.</text>
+<line x1="48" y1="134" x2="760" y2="134" stroke="#a8977c" stroke-opacity=".16"/>
+<text x="48" y="151" class="lbl">HTML · TAILWIND · GSAP · DEMO ONLINE</text>
+<line x1="784" y1="28" x2="784" y2="142" stroke="#a8977c" stroke-opacity=".22"/>
+<path stroke="#a8977c" stroke-opacity=".5" fill="none" d="M812 46V38H820M884 38H892V46M892 110V118H884M820 118H812V110"/>
+<g transform="translate(852 78)">
+<g fill="none" stroke="#d08a5a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M-16 0A16 16 0 0 1 16 0"/><path d="M0 -24V-30M-17 -17L-21 -21M17 -17L21 -21M-24 0H-30M24 0H30"/>
+<path d="M-34 0H34"/><path d="M-30 10H30V24H-30Z M-18 10V24M-6 10V24M6 10V24M18 10V24"/>
+</g>
+<rect x="-6" y="10" width="12" height="14" fill="#d08a5a"/>
+<path d="M0 32L-4 38H4Z" fill="#d08a5a"/>
+</g>
+<text x="852" y="146" class="lbl" font-size="9" text-anchor="middle">fig. fita</text>
+<rect width="960" height="170" filter="url(#nz)" opacity=".2"/>
+</g>
+<rect x=".5" y=".5" width="959" height="169" rx="13.5" fill="none" stroke="#3a2f24"/>
+</svg>
